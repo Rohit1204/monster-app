@@ -1,7 +1,9 @@
 .card-list{
-    width: 85vw;
-    margin: 0 auto;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background:linear-gradient( to left,rgba(7,27,82,1)0%,rgba(0,128,128,1)100%);
+  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-size: 18px;
+
 }

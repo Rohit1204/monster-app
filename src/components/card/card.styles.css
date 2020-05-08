@@ -1,13 +1,12 @@
 .card-container{
-    display: flex;
-    flex-direction: column;
-    background-color: #95dada;
-    border: 1px solid grey;
-    border-radius: 5px;
-    padding: 25px;
-    cursor: pointer;
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing:greyscale;
+    background:linear-gradient( to left,rgb(60,196,148)0%,rgb(113,142,140)100%);;
+    border: 1px solid #fff;
+    opacity: 0.7;
+    border-radius: 10px;
+    margin:20px;
+    text-align: center;
+     height:350px;
+     width:270px;
     transform: translateZ(0);
     transition: transform 0.25s ease-out;
 }
