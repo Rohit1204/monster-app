@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background:linear-gradient( to left,rgba(7,27,82,1)0%,rgba(0,128,128,1)100%);
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -11,6 +13,11 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.title{
+  font-family: 'Bigelow Rules';
+  font-size: 72px;
+  color: #0ccac4;
 }
 
 .App-header {

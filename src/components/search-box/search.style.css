@@ -1,0 +1,19 @@
+.search{
+    -webkit-appearance: none;
+    color:honeydew;
+    text-transform: capitalize;
+    outline: none;
+    padding: 10px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.search-box{
+    width: 200px;
+    font-size: 20px;
+    height: 60px;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid cadetblue;
+}
