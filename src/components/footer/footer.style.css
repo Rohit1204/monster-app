@@ -1,0 +1,19 @@
+footer{
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+}
+.github{
+    margin-right: 20px;
+}
+.link a:link{
+    font-size: 72px;
+    color: #0ccac4;
+    text-decoration: none;
+    font-family: 'Bigelow Rules';
+     font-weight: 600;
+     justify-content: center;
+}

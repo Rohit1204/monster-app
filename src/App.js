@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import './App.css';
+import  {Footer} from './components/footer/footer.component';
 import { SearchBox } from './components/search-box/search-box-component';
 import { CardList } from './components/card-list/card-list-component';
 
@@ -27,6 +28,7 @@ componentDidMount(){
            handleChange= {e=> this.setState({searchField:e.target.value})}
            />
           <CardList monsters={flterMonster}/>
+          <Footer/>
           </div>
         );
       }
